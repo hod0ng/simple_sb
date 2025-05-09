@@ -14,7 +14,6 @@ pipeline {
         DOCKERHUB = 'hoddong/spring'
         DOCKERHUBCREDENTIAL = 'docker_cre'
     }
-
     stages {
         stage('Checkout Github') {
             steps {
@@ -107,9 +106,7 @@ pipeline {
                 }
             }
         }
-       
-
     }
 
-}
+    }
 
