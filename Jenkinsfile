@@ -6,8 +6,8 @@ pipeline {
     }
     environment { //환경변수지정 
         GITNAME = 'hod0ng'            
-        GITEMAIL = 'hod0nh@gmail.com' 
-        GITWEBADD = 'https://github.com/hod0nh/simple_sb.git'
+        GITEMAIL = 'hod0ng@gmail.com' 
+        GITWEBADD = 'https://github.com/hod0ng/simple_sb.git'
         GITSSHADD = 'git@github.com:hod0ng/simple_sb.git'
         GITCREDENTIAL = 'git_cre'
         
@@ -110,3 +110,6 @@ pipeline {
        
 
     }
+
+}
+
